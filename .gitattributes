@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+function Lapin(adjectif){
+    this.adjectif = adjectif;
+    this.decrisToi = function(){
+        console.log("Je suis un"+ this.adjectif + "Lapin");
+    };
+}
+
+//Maintenant , nous pouvons créer facilement tout nos Lapinous ^^
